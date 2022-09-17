@@ -1,113 +1,143 @@
 [[SDL2_image]]
-arch = "i686"
-git-tree-sha1 = "df1eaafbedcbca2b99a438aa4d55a2701d4526ce"
-libc = "glibc"
-os = "linux"
-
-    [[SDL2_image.download]]
-    sha256 = "860de0e799f7db46db675f50fbc0bb64c6c0ff1fe25e0e1f7a5ab62ebe79fa70"
-    url = "https://github.com/JuliaBinaryWrappers/SDL2_image_jll.jl/releases/download/SDL2_image-v2.0.5+1/SDL2_image.v2.0.5.i686-linux-gnu.tar.gz"
-[[SDL2_image]]
-arch = "i686"
-git-tree-sha1 = "22d05c54c7e8ff5f9bc30d9f4072e56d9b4f62a7"
-libc = "musl"
-os = "linux"
-
-    [[SDL2_image.download]]
-    sha256 = "ba0a4e12aa592e649eff6cf2d95d79f27308b2aca77284fe8ac0b7349a44ca4e"
-    url = "https://github.com/JuliaBinaryWrappers/SDL2_image_jll.jl/releases/download/SDL2_image-v2.0.5+1/SDL2_image.v2.0.5.i686-linux-musl.tar.gz"
-[[SDL2_image]]
-arch = "x86_64"
-git-tree-sha1 = "1240e7ffecda5ed0afe1c1af643228d3db73a0af"
+arch = "aarch64"
+git-tree-sha1 = "373845c7ff7d385260ff6122a761fe796b095eba"
 os = "macos"
 
     [[SDL2_image.download]]
-    sha256 = "b52e92716cac707d2cb2f0fa09fc3c86921d094094fb45d8ad911ccf0b433953"
-    url = "https://github.com/JuliaBinaryWrappers/SDL2_image_jll.jl/releases/download/SDL2_image-v2.0.5+1/SDL2_image.v2.0.5.x86_64-apple-darwin14.tar.gz"
+    sha256 = "5f963847d13610baaa45137ab44e39365fb63c07291a36ed11a82c4e908ea61d"
+    url = "https://github.com/JuliaBinaryWrappers/SDL2_image_jll.jl/releases/download/SDL2_image-v2.6.2+0/SDL2_image.v2.6.2.aarch64-apple-darwin.tar.gz"
 [[SDL2_image]]
-arch = "powerpc64le"
-git-tree-sha1 = "cb9201616897e8852a9cdf40ffcbda877b623946"
+arch = "aarch64"
+git-tree-sha1 = "0abc065aa4afa3031fcd3608054189f25767c6fd"
 libc = "glibc"
 os = "linux"
 
     [[SDL2_image.download]]
-    sha256 = "374815bfabbf4bb9b4d5d1e1ba3d40d408359cac3dcc4c22e2d27e20e59a16cf"
-    url = "https://github.com/JuliaBinaryWrappers/SDL2_image_jll.jl/releases/download/SDL2_image-v2.0.5+1/SDL2_image.v2.0.5.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "784c6fcd05cb6a0cfe7f6675e617fa52e404a679aa758211c91c65f020a3277a"
+    url = "https://github.com/JuliaBinaryWrappers/SDL2_image_jll.jl/releases/download/SDL2_image-v2.6.2+0/SDL2_image.v2.6.2.aarch64-linux-gnu.tar.gz"
 [[SDL2_image]]
 arch = "aarch64"
-git-tree-sha1 = "bcf2524810dd2a3a1968de6d164758f3b2a495c2"
+git-tree-sha1 = "727a05207a1a1ae1f4f30022e9442c43305d1fe3"
+libc = "musl"
+os = "linux"
+
+    [[SDL2_image.download]]
+    sha256 = "ecd6d7f59b9068442036a5299ec2e3845a01dbb3db04a08e1e84313c48810d3b"
+    url = "https://github.com/JuliaBinaryWrappers/SDL2_image_jll.jl/releases/download/SDL2_image-v2.6.2+0/SDL2_image.v2.6.2.aarch64-linux-musl.tar.gz"
+[[SDL2_image]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "2e6f13a14488caefadbd8b7cea0e989348eefaf7"
 libc = "glibc"
 os = "linux"
 
     [[SDL2_image.download]]
-    sha256 = "db07bb6e832bf69138491d36cecbf4d4d7922e8324cd39b465eb72c7ec8a9b74"
-    url = "https://github.com/JuliaBinaryWrappers/SDL2_image_jll.jl/releases/download/SDL2_image-v2.0.5+1/SDL2_image.v2.0.5.aarch64-linux-gnu.tar.gz"
+    sha256 = "5efa6e98195365c4a1291c0aa426a3c603cfd5335b67cc674723496631346bf2"
+    url = "https://github.com/JuliaBinaryWrappers/SDL2_image_jll.jl/releases/download/SDL2_image-v2.6.2+0/SDL2_image.v2.6.2.armv6l-linux-gnueabihf.tar.gz"
 [[SDL2_image]]
-arch = "x86_64"
-git-tree-sha1 = "147f70c67157b7b1c7a831cb6757f63756b0b5a1"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "babf93ef2bdd641949df6fc38abd4369f4208e40"
 libc = "musl"
 os = "linux"
 
     [[SDL2_image.download]]
-    sha256 = "b6a775c52dc7cfaca5622a404bfbeaeb4fb736505393fdc8cf176170c0de79da"
-    url = "https://github.com/JuliaBinaryWrappers/SDL2_image_jll.jl/releases/download/SDL2_image-v2.0.5+1/SDL2_image.v2.0.5.x86_64-linux-musl.tar.gz"
-[[SDL2_image]]
-arch = "aarch64"
-git-tree-sha1 = "3cb8fd42ef0ed0852aa6ce7c6a70bcb26a698e97"
-libc = "musl"
-os = "linux"
-
-    [[SDL2_image.download]]
-    sha256 = "c8f09fb7b16d6013239d382df88a44e37029025b15832c9ba5759986e5d87e05"
-    url = "https://github.com/JuliaBinaryWrappers/SDL2_image_jll.jl/releases/download/SDL2_image-v2.0.5+1/SDL2_image.v2.0.5.aarch64-linux-musl.tar.gz"
+    sha256 = "68c44ecfdac5af30cc95f11be72ba50d8c8505e962d1224886fce403cd5245ef"
+    url = "https://github.com/JuliaBinaryWrappers/SDL2_image_jll.jl/releases/download/SDL2_image-v2.6.2+0/SDL2_image.v2.6.2.armv6l-linux-musleabihf.tar.gz"
 [[SDL2_image]]
 arch = "armv7l"
-git-tree-sha1 = "c25282cb33ed3873d6f624a7dadc754165d29d67"
+call_abi = "eabihf"
+git-tree-sha1 = "435eb0775ffe1af684497fc3ea04a86751416698"
+libc = "glibc"
+os = "linux"
+
+    [[SDL2_image.download]]
+    sha256 = "fbcf7502973f49061aedb63273c460c3aea659660da22ab2fcc39e3af9bc76c1"
+    url = "https://github.com/JuliaBinaryWrappers/SDL2_image_jll.jl/releases/download/SDL2_image-v2.6.2+0/SDL2_image.v2.6.2.armv7l-linux-gnueabihf.tar.gz"
+[[SDL2_image]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "e03e2bcc0b7241f910633d4b362731d1eb699af9"
 libc = "musl"
 os = "linux"
 
     [[SDL2_image.download]]
-    sha256 = "fd7dd7da55661156d0bfd8ac59fa023a778669ff1099c509224a2f07168dfae2"
-    url = "https://github.com/JuliaBinaryWrappers/SDL2_image_jll.jl/releases/download/SDL2_image-v2.0.5+1/SDL2_image.v2.0.5.arm-linux-musleabihf.tar.gz"
+    sha256 = "7c1afb09d26f0bbb1d1b7334e80b511e1117d06379ee16c5826c040f37c638d6"
+    url = "https://github.com/JuliaBinaryWrappers/SDL2_image_jll.jl/releases/download/SDL2_image-v2.6.2+0/SDL2_image.v2.6.2.armv7l-linux-musleabihf.tar.gz"
 [[SDL2_image]]
 arch = "i686"
-git-tree-sha1 = "0f1dcc5779e95e8e6b1308e87b7f8e09aa8e4755"
+git-tree-sha1 = "96c88b27df932bd8a54123176e33878f9c24a360"
+libc = "glibc"
+os = "linux"
+
+    [[SDL2_image.download]]
+    sha256 = "c5e9e654b9fb77ed6448b30f8d23c28c4f6703a980e0307800eae591471a1c0f"
+    url = "https://github.com/JuliaBinaryWrappers/SDL2_image_jll.jl/releases/download/SDL2_image-v2.6.2+0/SDL2_image.v2.6.2.i686-linux-gnu.tar.gz"
+[[SDL2_image]]
+arch = "i686"
+git-tree-sha1 = "ebf0406e942c1a474be3eae0f99e296b903b913b"
+libc = "musl"
+os = "linux"
+
+    [[SDL2_image.download]]
+    sha256 = "5321bbf1c3b63f70b6fdb8d4a1502f8be38eb281a1739dc236b31c08403a8e05"
+    url = "https://github.com/JuliaBinaryWrappers/SDL2_image_jll.jl/releases/download/SDL2_image-v2.6.2+0/SDL2_image.v2.6.2.i686-linux-musl.tar.gz"
+[[SDL2_image]]
+arch = "i686"
+git-tree-sha1 = "a46f2c17877051577973ffb08d3d2403fd9e8829"
 os = "windows"
 
     [[SDL2_image.download]]
-    sha256 = "39f910bb8eb64360b7a35eaa4f438393e915e33c70c2681d91d95162937c34d8"
-    url = "https://github.com/JuliaBinaryWrappers/SDL2_image_jll.jl/releases/download/SDL2_image-v2.0.5+1/SDL2_image.v2.0.5.i686-w64-mingw32.tar.gz"
+    sha256 = "760725f806f668ebe78fbfb160a1935f1d53afc444213a0763799c0f6da56374"
+    url = "https://github.com/JuliaBinaryWrappers/SDL2_image_jll.jl/releases/download/SDL2_image-v2.6.2+0/SDL2_image.v2.6.2.i686-w64-mingw32.tar.gz"
+[[SDL2_image]]
+arch = "powerpc64le"
+git-tree-sha1 = "3bd1cc2b9f93a6498174599970150e28080e3f7b"
+libc = "glibc"
+os = "linux"
+
+    [[SDL2_image.download]]
+    sha256 = "a953c5dcf15fde36ce10a2960f5dd2463fbea54ebc6afef4066ed28670cc9384"
+    url = "https://github.com/JuliaBinaryWrappers/SDL2_image_jll.jl/releases/download/SDL2_image-v2.6.2+0/SDL2_image.v2.6.2.powerpc64le-linux-gnu.tar.gz"
 [[SDL2_image]]
 arch = "x86_64"
-git-tree-sha1 = "984834885d87ecca0fee256d0eabcae9f765e26e"
+git-tree-sha1 = "ebc5a9bbb199bcb1a3cf08a266c5b9ec2ccce778"
+os = "macos"
+
+    [[SDL2_image.download]]
+    sha256 = "d4db3a8199389bf55ef09ab06874c18d4c6bada7f2eb41f926afad417228dfc8"
+    url = "https://github.com/JuliaBinaryWrappers/SDL2_image_jll.jl/releases/download/SDL2_image-v2.6.2+0/SDL2_image.v2.6.2.x86_64-apple-darwin.tar.gz"
+[[SDL2_image]]
+arch = "x86_64"
+git-tree-sha1 = "7407000f15b0d117607f4bd58f10687096376fe2"
+libc = "glibc"
+os = "linux"
+
+    [[SDL2_image.download]]
+    sha256 = "787e917f551c3622ada87615604f3ab45b9b4d6582ebb9b0074baf47bddeb4e3"
+    url = "https://github.com/JuliaBinaryWrappers/SDL2_image_jll.jl/releases/download/SDL2_image-v2.6.2+0/SDL2_image.v2.6.2.x86_64-linux-gnu.tar.gz"
+[[SDL2_image]]
+arch = "x86_64"
+git-tree-sha1 = "0be0781cce663d96d6fb4ebaacd33d819e7e9df4"
+libc = "musl"
+os = "linux"
+
+    [[SDL2_image.download]]
+    sha256 = "6f1f09c0994dff7bcefba5d6a057b4de93997ded947ade56e8191f2edb8bc67b"
+    url = "https://github.com/JuliaBinaryWrappers/SDL2_image_jll.jl/releases/download/SDL2_image-v2.6.2+0/SDL2_image.v2.6.2.x86_64-linux-musl.tar.gz"
+[[SDL2_image]]
+arch = "x86_64"
+git-tree-sha1 = "372343ef147052e6719ce5730fe3b17c8fcf7be5"
 os = "freebsd"
 
     [[SDL2_image.download]]
-    sha256 = "5c4ea592524f44ac52c98befe0505b001c3409c74a577b0ab68fef50a1aab93e"
-    url = "https://github.com/JuliaBinaryWrappers/SDL2_image_jll.jl/releases/download/SDL2_image-v2.0.5+1/SDL2_image.v2.0.5.x86_64-unknown-freebsd11.1.tar.gz"
-[[SDL2_image]]
-arch = "armv7l"
-git-tree-sha1 = "0d86c6af1c1594166214bd26c9ff82aa3a02d3ae"
-libc = "glibc"
-os = "linux"
-
-    [[SDL2_image.download]]
-    sha256 = "899c6d753aa1d0a240b662d20849fbcf2a50dc0ad20b7587adc3d8dcf394a90e"
-    url = "https://github.com/JuliaBinaryWrappers/SDL2_image_jll.jl/releases/download/SDL2_image-v2.0.5+1/SDL2_image.v2.0.5.arm-linux-gnueabihf.tar.gz"
+    sha256 = "b842ada4de10548cc8cc8e2b2e4b2df4d2cc5e1e7c3b85f279c7451a294f7068"
+    url = "https://github.com/JuliaBinaryWrappers/SDL2_image_jll.jl/releases/download/SDL2_image-v2.6.2+0/SDL2_image.v2.6.2.x86_64-unknown-freebsd.tar.gz"
 [[SDL2_image]]
 arch = "x86_64"
-git-tree-sha1 = "99cc19641953cfb7cf8f427ed9ecde3e12f61025"
-libc = "glibc"
-os = "linux"
-
-    [[SDL2_image.download]]
-    sha256 = "caeb2525385001a4b09c26f7290ea5971334f615cb782ea248c60db6642f4db6"
-    url = "https://github.com/JuliaBinaryWrappers/SDL2_image_jll.jl/releases/download/SDL2_image-v2.0.5+1/SDL2_image.v2.0.5.x86_64-linux-gnu.tar.gz"
-[[SDL2_image]]
-arch = "x86_64"
-git-tree-sha1 = "411322db06d7dbd310eda2cde5865ffcb5280d42"
+git-tree-sha1 = "f732b0010dc112bc07b5f2bd0fe338daa08af7ba"
 os = "windows"
 
     [[SDL2_image.download]]
-    sha256 = "e047043d2b5c724ca298e7c1ca4978af1c7eff5e0efbfd77c151788f71d4d39e"
-    url = "https://github.com/JuliaBinaryWrappers/SDL2_image_jll.jl/releases/download/SDL2_image-v2.0.5+1/SDL2_image.v2.0.5.x86_64-w64-mingw32.tar.gz"
+    sha256 = "9b2433b228f12db8b98ec68ce53f1c069c3c053e2f32588a740dc0e7954f7f5b"
+    url = "https://github.com/JuliaBinaryWrappers/SDL2_image_jll.jl/releases/download/SDL2_image-v2.6.2+0/SDL2_image.v2.6.2.x86_64-w64-mingw32.tar.gz"
