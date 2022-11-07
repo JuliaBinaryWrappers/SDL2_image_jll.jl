@@ -1,6 +1,6 @@
 name = "SDL2_image_jll"
 uuid = "41f3cfe1-fd11-58ad-8074-b9730c29438b"
-version = "2.6.2+0"
+version = "2.6.2+1"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
